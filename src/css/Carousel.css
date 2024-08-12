@@ -23,6 +23,25 @@
   transform: scale(1.5);
 }
 
+.carousel-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  opacity: 0.8;
+  color: #fff;
+  border: none;
+  padding: 30px 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+  z-index: 1;
+  font-family: "Teko", sans-serif;
+  font-size: 20;
+  text-transform: uppercase;
+}
+
 .carousel-button {
   background: linear-gradient(90deg, #3f51b5, transparent) #555;
   opacity: 0.8;

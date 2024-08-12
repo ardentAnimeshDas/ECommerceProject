@@ -10,7 +10,6 @@ const CarouselMenu = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
-    console.log("Animesh")
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
 

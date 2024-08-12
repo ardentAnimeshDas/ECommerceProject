@@ -5,7 +5,7 @@ import { Navbar, Nav, NavDropdown, Button, Container } from 'react-bootstrap';
 
 const HomepageNavbar = () => {
     return (
-        <Navbar bg="light" expand="lg" className="py-3">
+        <Navbar bg="light" expand="lg" className="py-3 fixed-top">
             <Container>
                 {/* Company Name */}
                 <Navbar.Brand href="#home" className="me-auto">
