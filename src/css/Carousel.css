@@ -1,0 +1,46 @@
+.custom-carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%; /* Make the carousel full width */
+  height: 100vh; /* Set the height to 33% of the viewport height */
+  margin: auto;
+}
+
+.carousel-slide {
+  width: 100%; /* Make the slide container full width */
+  height: 100%; /* Make the slide container take the full height of the carousel */
+  overflow: hidden;
+}
+
+.carousel-slide img {
+  width: 100%; /* Make the image take the full width of the slide */
+  height: 70%; /* Make the image take the full height of the slide */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+  display: block;
+}
+
+.carousel-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.carousel-button:hover {
+  background-color: #555;
+}
+
+.carousel-button:nth-of-type(1) {
+  left: 0;
+}
+
+.carousel-button:nth-of-type(2) {
+  right: 0;
+}
