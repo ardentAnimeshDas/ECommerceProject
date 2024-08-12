@@ -9,7 +9,7 @@ const HomepageNavbar = () => {
             <Container>
                 {/* Company Name */}
                 <Navbar.Brand href="#home" className="me-auto">
-                    <h2>CompanyName</h2>
+                    <h2>Example.xyz</h2>
                 </Navbar.Brand>
 
                 {/* Navbar with 7 buttons and dropdown */}

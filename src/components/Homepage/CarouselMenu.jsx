@@ -3,9 +3,8 @@ import '../../css/Carousel.css';
 
 const CarouselMenu = () => {
   const images = [
-    'smartwatch.png',
-    'ps4.png',
-    'iphone.png'
+    'Images/smartwatch.png',
+    'Images/iphone.png',
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
