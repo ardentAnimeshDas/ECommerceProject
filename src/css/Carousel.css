@@ -4,7 +4,7 @@
   justify-content: center;
   position: relative;
   width: 100%; /* Make the carousel full width */
-  height: 100vh; /* Set the height to 33% of the viewport height */
+  height: 100vh;
   margin: auto;
 }
 
