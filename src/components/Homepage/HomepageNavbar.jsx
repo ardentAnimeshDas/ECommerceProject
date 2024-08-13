@@ -5,11 +5,11 @@ import { Navbar, Nav, NavDropdown, Button, Container } from 'react-bootstrap';
 
 const HomepageNavbar = () => {
     return (
-        <Navbar bg="light" expand="lg" className="py-3">
+        <Navbar bg="light" expand="lg" className="">
             <Container>
                 {/* Company Name */}
                 <Navbar.Brand href="#home" className="me-auto">
-                    <h2>Example.xyz</h2>
+                    <img src="logo_me.png" height={100} width={100} alt="Company Logo"/>
                 </Navbar.Brand>
 
                 {/* Navbar with 7 buttons and dropdown */}
