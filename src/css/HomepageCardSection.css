@@ -7,6 +7,7 @@
 
 .Card {
   max-width: fit-content;
+<<<<<<< HEAD
   background-color: #EEE;
   margin: 15px 0px;
   transition: 0.3s;
@@ -18,6 +19,21 @@
   border-top-left-radius: 5px;
   border-bottom-right-radius: 5px;
   }
+=======
+  background-color: #f5f5f5;
+  margin: 15px 0px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: 0.3s;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card-body {
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: linear-gradient(90deg, #555, transparent) #3f51b5;
+}
+>>>>>>> 6ddccaa5ec0050c9fd8ef1db5bf4c91ea5941563
 
 .card-body:hover {
   transition: transform .5s ease;
@@ -37,7 +53,12 @@
   border-radius: 3px;
   margin-top: 10px;
   border: none;
+<<<<<<< HEAD
   color: rgb(44, 28, 28);
+=======
+  background: linear-gradient(90deg, #3f51b5, transparent) #EB3678;
+  color: white;
+>>>>>>> 6ddccaa5ec0050c9fd8ef1db5bf4c91ea5941563
   font-family: "Teko", sans-serif;
   font-size: 22px;
   font-weight: normal;
@@ -49,7 +70,11 @@
   transition: transform .5s ease;
   transform: scale(1.06);
   opacity: 1;
+<<<<<<< HEAD
   color: rgb(44, 28, 28);
+=======
+  color: #3f51b5;
+>>>>>>> 6ddccaa5ec0050c9fd8ef1db5bf4c91ea5941563
   font-weight: bold;
 }
 
@@ -60,7 +85,11 @@
 
 .item-name {
   text-align: left;
+<<<<<<< HEAD
   color: rgb(44, 28, 28);
+=======
+  color: white;
+>>>>>>> 6ddccaa5ec0050c9fd8ef1db5bf4c91ea5941563
   font-family: "Teko", sans-serif;
   font-size: 36px;
   font-weight: normal;
@@ -71,7 +100,11 @@
 
 .item-description {
   float: left;
+<<<<<<< HEAD
   color: rgb(44, 28, 28);
+=======
+  color: white;
+>>>>>>> 6ddccaa5ec0050c9fd8ef1db5bf4c91ea5941563
   font-family: "Teko", sans-serif;
   font-size: 24px;
   font-weight: normal;
