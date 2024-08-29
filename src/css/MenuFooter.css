@@ -2,19 +2,17 @@
 
 .Card0 {
     text-align: center;
-    background: linear-gradient(90deg, #555, transparent) #7C00FE;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     padding: 30px;
     margin-top: 30px;
     margin-bottom: 15px;
     border-radius: 10px;
     text-transform: uppercase;
-    color: white;
+    color: rgb(44, 28, 28);
     width: auto;
 }
 
 .Card0 .svg-inline--fa {
-    color: white;
+    color: rgb(44, 28, 28);
     vertical-align: 0em;
     padding-right: 0px;
 }
@@ -26,7 +24,7 @@
 }
 
 .Card0:hover {
-    color: #FFD700;
+    color: rgb(44, 28, 28);
     transition: transform .5s ease;
     transform: scale(1.06);
 }
