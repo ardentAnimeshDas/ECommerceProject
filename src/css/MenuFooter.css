@@ -2,30 +2,17 @@
 
 .Card0 {
     text-align: center;
-<<<<<<< HEAD
-=======
-    background: linear-gradient(90deg, #555, transparent) #7C00FE;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
->>>>>>> 6ddccaa5ec0050c9fd8ef1db5bf4c91ea5941563
     padding: 30px;
     margin-top: 30px;
     margin-bottom: 15px;
     border-radius: 10px;
     text-transform: uppercase;
-<<<<<<< HEAD
     color: rgb(44, 28, 28);
-=======
-    color: white;
->>>>>>> 6ddccaa5ec0050c9fd8ef1db5bf4c91ea5941563
     width: auto;
 }
 
 .Card0 .svg-inline--fa {
-<<<<<<< HEAD
     color: rgb(44, 28, 28);
-=======
-    color: white;
->>>>>>> 6ddccaa5ec0050c9fd8ef1db5bf4c91ea5941563
     vertical-align: 0em;
     padding-right: 0px;
 }
@@ -37,11 +24,7 @@
 }
 
 .Card0:hover {
-<<<<<<< HEAD
     color: rgb(44, 28, 28);
-=======
-    color: #FFD700;
->>>>>>> 6ddccaa5ec0050c9fd8ef1db5bf4c91ea5941563
     transition: transform .5s ease;
     transform: scale(1.06);
 }
