@@ -1,14 +1,15 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faUser, faShoppingCart, faCaretDown } from '@fortawesome/free-solid-svg-icons';
+import { faSearch, faUser, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { Navbar, Nav, NavDropdown, Button, Container } from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 const HomepageNavbar = () => {
     return (
         <Navbar bg="light" expand="lg" className="">
             <Container>
                 {/* Company Name */}
-                <Navbar.Brand href="#home" className="me-auto">
+                <Navbar.Brand as = {Link} to="/" className="me-auto">
                     <img src="logo_me.png" height={100} width={100} alt="Company Logo"/>
                 </Navbar.Brand>
 
@@ -16,33 +17,33 @@ const HomepageNavbar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto">
-                        <Nav.Link href="#" disabled>Home</Nav.Link>
-                        <Nav.Link href="#" disabled>About</Nav.Link>
-                        <Nav.Link href="#" disabled>Services</Nav.Link>
-                        <Nav.Link href="#" disabled>Products</Nav.Link>
-                        <Nav.Link href="#" disabled>Contact</Nav.Link>
-                        <Nav.Link href="#" disabled>Blog</Nav.Link>
-                        <NavDropdown title={<FontAwesomeIcon icon={faCaretDown} />} id="basic-nav-dropdown" disabled>
-                            <NavDropdown.Item href="#" disabled>Subitem 1</NavDropdown.Item>
-                            <NavDropdown.Item href="#" disabled>Subitem 2</NavDropdown.Item>
-                            <NavDropdown.Item href="#" disabled>Subitem 3</NavDropdown.Item>
-                            <NavDropdown.Item href="#" disabled>Subitem 4</NavDropdown.Item>
-                            <NavDropdown.Item href="#" disabled>Subitem 5</NavDropdown.Item>
-                            <NavDropdown.Item href="#" disabled>Subitem 6</NavDropdown.Item>
-                            <NavDropdown.Item href="#" disabled>Subitem 7</NavDropdown.Item>
-                            <NavDropdown.Item href="#" disabled>Subitem 8</NavDropdown.Item>
+                        <Nav.Link as={Link} to="/">HOME</Nav.Link>
+                        <Nav.Link as={Link} to="/about">ABOUT</Nav.Link>
+                        <Nav.Link as={Link} to="/services">SERVICES</Nav.Link>
+                        <Nav.Link as={Link} to="/products">PRODUCTS</Nav.Link>
+                        <Nav.Link as={Link} to="/contact">CONTACT</Nav.Link>
+                        <Nav.Link as={Link} to="/blog">BLOG</Nav.Link>
+                        <NavDropdown title={<FontAwesomeIcon/>} id="basic-nav-dropdown">
+                            <NavDropdown.Item href="">ABOUT</NavDropdown.Item>
+                            <NavDropdown.Item href="">BLOG</NavDropdown.Item>
+                            <NavDropdown.Item href="">SHOP</NavDropdown.Item>
+                            <NavDropdown.Item href="">CART</NavDropdown.Item>
+                            <NavDropdown.Item href="">CHECKOUT</NavDropdown.Item>
+                            <NavDropdown.Item href="">SINGLE POST</NavDropdown.Item>
+                            <NavDropdown.Item href="">SINGLE PRODUCT</NavDropdown.Item>
+                            <NavDropdown.Item href="">CONTACT</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
 
                     {/* Icons */}
                     <Nav>
-                        <Button variant="link" disabled>
+                        <Button variant="link">
                             <FontAwesomeIcon icon={faSearch} />
                         </Button>
-                        <Button variant="link" disabled className="mx-2">
+                        <Button variant="link" className="mx-2">
                             <FontAwesomeIcon icon={faUser} />
                         </Button>
-                        <Button variant="link" disabled>
+                        <Button variant="link">
                             <FontAwesomeIcon icon={faShoppingCart} />
                         </Button>
                     </Nav>
