@@ -28,6 +28,9 @@ const Container = () => {
                 <div className="row text-center card-deck mt-5">
                   <HomepageCardSection />
                 </div>
+                <div className="row text-center">
+                <MenuFooter />
+              </div>
               </>
             }
           ></Route>
@@ -38,9 +41,6 @@ const Container = () => {
           <Route path="/blog" element={<Blogs />}></Route>
         </Routes>
 
-        <div className="row text-center">
-          <MenuFooter />
-        </div>
       </div>
     </>
   );
