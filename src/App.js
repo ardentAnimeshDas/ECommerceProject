@@ -1,12 +1,14 @@
-import './App.css';
-import Hello from './components/Hello';
+import "./App.css";
+import { BrowserRouter as Router } from "react-router-dom";
+import Container from "./components/Container";
 
 function App() {
   return (
-    <div className="App">
-      <Hello/>
-      <Container/>
-    </div>
+    <Router>
+      <div className="App">
+        <Container />
+      </div>
+    </Router>
   );
 }
 
