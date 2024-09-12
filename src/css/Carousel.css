@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap'); /* Google Font TEKO */
+
+.custom-carousel-container {
+  height: 80vh;
+  border-bottom-right-radius: 250px;
+  border-top: 5px solid #7C00FE;
+  border-bottom: 5px solid #555;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.carousel-slide {
+  width: 100%; /* Make the slide container full width */
+  height: 100%; /* Make the slide container take the full height of the carousel */
+  overflow: hidden;
+}
+
+.carousel-slide img {
+  height: 90%; /* Make the image take the full height of the slide */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+  display: flex;
+  float: right;
+  padding: 50px 180px 0px;
+}
+
+.carousel-slide img:hover {
+  transition: transform .5s ease;
+  transform: scale(1.5);
+}
+
+.carousel-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  opacity: 0.8;
+  color: #fff;
+  border: none;
+  padding: 30px 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+  z-index: 1;
+  font-family: "Teko", sans-serif;
+  font-size: 20;
+  text-transform: uppercase;
+}
+
+.carousel-button {
+  background: linear-gradient(90deg, #3f51b5, transparent) #555;
+  opacity: 0.8;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.carousel-button:hover {
+  background: linear-gradient(90deg, #555, transparent) #3f51b5;
+  transition: transform .5s ease;
+  transform: scale(1.3);
+  opacity: 1;
+}
+
+.carousel-button:nth-of-type(1) {
+  left: 0;
+  margin-left: 60px;
+  border-radius: 50px;
+}
+
+.carousel-button:nth-of-type(2) {
+  right: 0;
+  margin-right: 60px;
+  border-radius: 50px;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient( to bottom, #402E7A 50%, #EB3678 );
+}

@@ -1,0 +1,56 @@
+/* Styling for the product catalog container */
+.product-catalog {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Styling for the filters section */
+.filters {
+    width: 20%;
+    padding-right: 20px;
+}
+
+/* Styling for each filter section (category, price, size) */
+.filter-section {
+    margin-bottom: 20px;
+}
+
+.filter-section select,
+.filter-section input {
+    width: 100%;
+    padding: 5px;
+}
+
+/* Styling for the product grid */
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 20px;
+    width: 75%;
+}
+
+/* Styling for each product card */
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #555;
+}
