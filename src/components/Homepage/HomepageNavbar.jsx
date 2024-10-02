@@ -24,12 +24,10 @@ const HomepageNavbar = () => {
                         <Nav.Link as={Link} to="/contact">CONTACT</Nav.Link>
                         <Nav.Link as={Link} to="/blog">BLOG</Nav.Link>
                         <NavDropdown title={<FontAwesomeIcon/>} id="basic-nav-dropdown">
-                            
                             <NavDropdown.Item href="">CART</NavDropdown.Item>
                             <NavDropdown.Item href="">CHECKOUT</NavDropdown.Item>
                             <NavDropdown.Item href="">SINGLE POST</NavDropdown.Item>
-                            <NavDropdown.Item href="">SINGLE PRODUCT</NavDropdown.Item>
-                            
+                            <NavDropdown.Item href="">SINGLE PRODUCT</NavDropdown.Item>  
                         </NavDropdown>
                     </Nav>
 
